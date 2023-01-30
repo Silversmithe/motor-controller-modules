@@ -2,6 +2,6 @@
 
 A repository to store all projects involving motor control modules, which can be used in various other projects.
 
-File Descriptor Lingo:
+## File Descriptor Language:
 - rt: realtime
 - hp: high-precision
