@@ -1,0 +1,10 @@
+19:38:44 **** Incremental Build of configuration Debug for project bringup ****
+make -j12 all 
+arm-none-eabi-size   bringup.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15564	     20	   1940	  17524	   4474	bringup.elf
+Finished building: default.size.stdout
+ 
+
+19:38:44 Build Finished. 0 errors, 0 warnings. (took 273ms)
+
