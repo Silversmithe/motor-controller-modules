@@ -1,0 +1,28 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid a95831e5-a154-42e0-b3f8-b1c784403fd2)
+
+  (paper "A4")
+
+  (title_block
+    (title "Requirements")
+    (date "2022-10-30")
+    (rev "HULA - 0.2")
+    (company "Alexander S. Adranly")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "Routing Notes\n- Single Trace Widths\n	- Logic : 0.3mm\n	- Power : 0.5mm\n	- 50 Ohm: 0.29337mm    (Clock?)\n- Differential Trace Widths\n	- 120 Ohm: 0.126238mm (CAN Bus)\n	- 90 Ohm: 0.261112mm  (USB) "
+    (at 125.095 45.72 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid 2f3c5f7e-2433-4bab-abb5-de88f85ffda3)
+  )
+  (text "A motor position controller for audio-animatronics.\n\n1. Audio-Animatronics\n	1.1. 30 FPS playback\n	1.2. Homing - need to determine \"zero\" position for correct animation\n	1.3. Need to recieve position commands from a \"show\" computer\n\n2. Motor Controller\n	2.1. Real-time compute\n		2.1.1. Floating-Point Hardware\n	2.2. Position Control\n		2.2.1. Quadrature encoder feedback\n		2.2.2. Homing\n	2.3. Power supply demands\n		2.3.1. Logic Power\n		2.3.2. Actuator Power\n		\n3. Testing\n	4.1. LED hooked up to CPU GPIO\n		- Sanity to ensure CPU works and can control GPIO\n	4.2. LED hooked up to USB 3V3 regulator \n		- Sanity to ensure power & regulation are correct"
+    (at 19.685 79.375 0)
+    (effects (font (size 1.5 1.5)) (justify left bottom))
+    (uuid f3853534-7334-46a5-b367-1f959c8cd93b)
+  )
+)
